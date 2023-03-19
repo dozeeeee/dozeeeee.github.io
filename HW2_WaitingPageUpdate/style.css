@@ -1,0 +1,45 @@
+:root {
+  --blueBlockHeight: 400px;
+}
+
+#page {
+  height: auto;
+  position: relative;
+}
+
+img {
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+
+#background img {
+  filter: brightness(50%);
+  width: 100%;
+  height: 100%;
+}
+
+#word {
+  font-size: 500%;
+  text-align: center;
+  color: #ffffff;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%,50%);
+}
+
+strong {
+  font-weight: bold;
+}
+
+#Facebook {
+  cursor: pointer;
+}
+
+#Instagram {
+  cursor: pointer;
+}
+
+#BeanFun{
+  cursor: pointer;
+}
